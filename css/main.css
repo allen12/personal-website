@@ -30,7 +30,7 @@ a:hover {
 }
 
 .sidebar {
-    background-image: url("../../img/personal-image.jpg");
+    background-image: url("../resources/personal-image.jpg");
 	background-repeat: no-repeat;
 	background-color: rgb(61, 79, 93);
     color: #fff;
