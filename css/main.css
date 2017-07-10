@@ -1,7 +1,7 @@
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 a {
@@ -15,80 +15,80 @@ a:hover {
 }
 
 #layout {
-    padding: 0;
+	padding: 0;
 }
 
 .header {
-    text-align: center;
-    top: auto;
-    margin: 3em auto;
+	text-align: center;
+	top: auto;
+	margin: 3em auto;
 }
 
 .sidebar {
-    background-image: url("../resources/personal-image.jpg");
+	background-image: url("../resources/personal-image.jpg");
 	background-repeat: no-repeat;
 	background-color: rgb(61, 79, 93);
-    color: #fff;
+	color: #fff;
 }
 
 .sidebar-title {
-    margin: 0;
+	margin: 0;
 	font-size: 300%;
 	text-transform: uppercase;
 }
 
 .section-header {
-    color: #cc0033;
-    border-bottom: 1px solid #eee;
-    padding: 0.4em 0;
+	color: #cc0033;
+	border-bottom: 1px solid #eee;
+	padding: 0.4em 0;
 	font-family: Bookman, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif !important;
-    font-size: 160%;
-    font-weight: 500;
-    letter-spacing: 0.1em;
+	font-size: 160%;
+	font-weight: 500;
+	letter-spacing: 0.1em;
 }
 
 .content {
-    padding: 2em 1em 0;
+	padding: 2em 1em 0;
 }
 
 .text {
-    padding-bottom: 2em;
+	padding-bottom: 2em;
 }
 
 .text-description {
-    font-family: Georgia, "Cambria", serif;
-    color: #444;
-    line-height: 1.6em;
+	font-family: Georgia, "Cambria", serif;
+	color: #444;
+	line-height: 1.6em;
 }
 
 .footer {
 	padding: 1em 0;
 	text-align: center;
-    color: #ccc;
-    font-size: 80%;
+	color: #ccc;
+	font-size: 80%;
 }
 
 @media (min-width: 48em) {
-    .content {
-        padding: 2em 3em 0;
-        margin-right: 25%;
-    }
+	.content {
+		padding: 2em 3em 0;
+		margin-right: 25%;
+	}
 
-    .header {
-        margin: 80% 2em 0;
-        text-align: right;
-    }
+	.header {
+		margin: 80% 2em 0;
+		text-align: right;
+	}
 
-    .sidebar {
-        position: fixed;
-        top: 0;
-        bottom: 0;
-        right: 0;
-    }
+	.sidebar {
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		right: 0;
+	}
 
-    .footer {
-        text-align: center;
-    }
+	.footer {
+		text-align: center;
+	}
 }
 
 .fa {
