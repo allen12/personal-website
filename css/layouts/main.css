@@ -1,0 +1,147 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a {
+	color: #cc0033;
+	text-decoration-line: underline;
+
+}
+
+a:hover {
+	color: #ffc390;
+}
+
+.pure-img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+#layout {
+    padding: 0;
+}
+
+.header {
+    text-align: center;
+    top: auto;
+    margin: 3em auto;
+}
+
+.sidebar {
+    background-image: url("../../img/personal-image.jpg");
+	background-repeat: no-repeat;
+	background-color: rgb(61, 79, 93);
+    color: #fff;
+}
+
+.brand-title {
+    margin: 0;
+	font-size: 320%;
+	text-transform: uppercase;
+}
+
+.section-header {
+    color: #cc0033;
+    border-bottom: 1px solid #eee;
+    padding: 0.4em 0;
+    font-family: Chalkboard;
+    font-size: 140%;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+
+.content {
+    padding: 2em 1em 0;
+}
+
+.text {
+    padding-bottom: 2em;
+}
+
+.text-description {
+    font-family: Georgia, "Cambria", serif;
+    color: #444;
+    line-height: 1.6em;
+}
+
+.footer {
+	padding: 1em 0;
+	text-align: center;
+    color: #ccc;
+    font-size: 80%;
+}
+
+@media (min-width: 48em) {
+    .content {
+        padding: 2em 3em 0;
+        margin-right: 25%;
+    }
+
+    .header {
+        margin: 80% 2em 0;
+        text-align: right;
+    }
+
+    .sidebar {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+    }
+
+    .footer {
+        text-align: center;
+    }
+}
+
+.fa {
+	color: #fff;
+	margin-top: 5px;
+	margin-left: 15px;
+	text-decoration: none !important;
+}
+
+.fa:hover {
+	color: yellow;
+}
+
+.stroke-text {
+	-webkit-text-stroke: 2px black;
+	text-shadow:
+			/*3px 3px 0 #000,*/
+			-1px -1px 0 #000,
+			1px -1px 0 #000,
+			-1px 1px 0 #000,
+			1px 1px 0 #000;
+}
+
+.resume-font {
+	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif !important;
+}
+
+.resume-header {
+	margin-bottom: 10px;
+	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif !important;
+}
+
+.resume-right {
+	text-align: right;
+	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif !important;
+}
+
+.resume-org {
+	color: #cc0033;
+	font-size: large;
+	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif !important;
+}
+
+.resume-desc {
+	font-style: italic;
+	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif !important;
+}
+
+.resume-entry {
+	margin-top: 8px;
+}
