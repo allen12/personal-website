@@ -7,7 +7,10 @@
 a {
 	color: #cc0033;
 	text-decoration-line: underline;
+}
 
+img {
+	vertical-align: bottom;
 }
 
 a:hover {
@@ -140,4 +143,23 @@ a:hover {
 
 .resume-bullets {
 	margin: 10px 0 0 -22px;
+}
+
+.project-column {
+	padding: 3% 3% 0 3%;
+}
+
+.project-image {
+	max-width: 100%;
+}
+
+.project-title {
+	color: #cc0033;
+	font-size: 20pt;
+}
+
+.project-desc {
+	background: #f2f2f2;
+	text-align: center;
+	margin-bottom: 2em;
 }
