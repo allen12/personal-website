@@ -9,12 +9,12 @@ a {
 	text-decoration-line: underline;
 }
 
-img {
-	vertical-align: bottom;
-}
-
 a:hover {
 	color: #ffc390;
+}
+
+img {
+	vertical-align: bottom;
 }
 
 #layout {
@@ -44,10 +44,13 @@ a:hover {
 	color: #cc0033;
 	border-bottom: 1px solid #eee;
 	padding: 0.4em 0;
-	font-family: Bookman, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif !important;
 	font-size: 160%;
 	font-weight: 500;
 	letter-spacing: 0.1em;
+}
+
+.sans-serif-font {
+	font-family: Proxima Nova, Avenir, sans-serif !important;
 }
 
 .content {
@@ -59,7 +62,6 @@ a:hover {
 }
 
 .text-description {
-	font-family: Georgia, "Cambria", serif;
 	color: #444;
 	line-height: 1.6em;
 }
@@ -98,7 +100,7 @@ a:hover {
 	color: #fff;
 	margin-top: 5px;
 	margin-left: 15px;
-	text-decoration: none !important;
+	text-decoration: none;
 }
 
 .fa:hover {
@@ -121,7 +123,7 @@ a:hover {
 }
 
 .resume-font {
-	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif !important;
+	font-family: Garmond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif !important;
 }
 
 .resume-right {
@@ -146,7 +148,7 @@ a:hover {
 }
 
 .project-column {
-	padding: 3% 3% 0 3%;
+	padding: 0 5% 0 5%;
 }
 
 .project-image {
