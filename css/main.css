@@ -23,8 +23,9 @@ img {
 
 .header {
 	text-align: center;
-	top: auto;
+	bottom: auto;
 	margin: 3em auto;
+	padding-top: 40%;
 }
 
 .sidebar {
