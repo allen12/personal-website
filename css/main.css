@@ -69,6 +69,7 @@ img {
 
 .footer {
 	padding: 1em 0;
+	letter-spacing: 0.02em;
 	text-align: center;
 	color: #ccc;
 	font-size: 80%;
@@ -141,7 +142,7 @@ img {
 }
 
 .resume-entry {
-	margin-top: 8px;
+	margin-top: 19px;
 }
 
 .resume-bullets {
